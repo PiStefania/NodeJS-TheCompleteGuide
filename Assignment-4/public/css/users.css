@@ -1,0 +1,15 @@
+.main__h1 {
+    text-align: center;
+    width: 100%;
+    height: 56px;
+}
+
+.main__ul {
+    list-style: none;
+}
+
+.main-list_ul-item {
+    padding: 2px;
+    background-color: #e43b11;
+    color: white;
+}

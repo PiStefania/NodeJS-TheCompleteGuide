@@ -1,0 +1,20 @@
+<%- include('includes/head.ejs') %>
+</head>
+
+<body>
+    <%- include('includes/navigation.ejs') %>
+    <main>
+        <h1 class="main__h1">Users list</h1>
+        
+        <% if (users.length > 0) { %>
+            <ul class="main__ul">
+                <% for (let name of users) { %>
+                <li class="main-list_ul-item"><%= name %></li>
+                <% } %>
+            </ul> 
+        <% } else { %>
+            <h1>No Users Found!</h1>
+        <% } %>
+    </main>
+
+<%- include('includes/end.ejs') %>
